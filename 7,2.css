@@ -1,0 +1,75 @@
+body{
+    background: black;
+    color:white;
+    font-size: 20px;
+    padding: 0px;
+    font-family: myFirstFont;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Actionis-6Yex.ttf);}
+img { 
+    max-width:100%;
+    height: auto;
+}
+iframe{max-width: 100%;
+height: auto;}
+
+
+ 
+
+.dalkar{ display: grid;
+    background: blue;
+    color: violet;
+    font-size: 30px;
+    grid-template-columns: 1fr;
+    
+}
+.dalkar :visited{
+    color:lime}
+.dalkar :hover{
+    color: purple}
+.dalkar1{    
+    display: grid;
+    grid-template-columns: 1fr;
+    background: darkmagenta;
+    color: lightseagreen;}
+.dalkar2{display: grid;
+    background: blue;
+    color: violet;
+grid-template-columns: 1fr;}
+.dalkar3{display: grid;
+    grid-template-columns: 1fr;}
+@media screen and (min-width:600px ){
+.dalkar3{display: grid;
+    grid-template-columns: 1fr 1fr;}
+.dalkar{display:grid;
+grid-template-columns: 1fr 1fr;}  
+.dalkar1{display: grid;
+grid-template-columns: 1fr 1fr;}  
+.dalkar2{display: grid;
+    grid-template-columns: 1fr 1fr;} 
+   
+}
+@media  screen and (min-width:768px) {
+.dalkar3{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+.dalkar2{display: grid;
+grid-template-columns: 1fr 1fr 1fr;}  
+.dalkar1{display: grid;
+grid-template-columns: 1fr 1fr 1fr;}  
+.dalkar{display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;}
+ 
+}
+@media  screen and (min-width:960px) {
+    .dalkar3{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+    .dalkar2{display: grid;
+    grid-template-columns: 1fr 1fr 1fr;}  
+    .dalkar1{display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;}  
+    .dalkar{display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;}
+    
+     }
